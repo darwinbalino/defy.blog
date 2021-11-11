@@ -5,7 +5,7 @@ import Header from "../components/Header";
 export default function Home() {
   const [sidebar, setSidebar] = useState(false);
   return (
-    <div className="relative min-h-screen bg-dark">
+    <div className="relative min-h-screen overflow-hidden bg-dark">
       <Head>
         <title>Defy</title>
         <link rel="icon" href="/favicon.ico" />
