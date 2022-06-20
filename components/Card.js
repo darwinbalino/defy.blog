@@ -10,8 +10,10 @@ const Post = ({ slug, title, description, preview, date }) => {
             {title}
           </h1>
         </Link>
-        <p className="text-base">{description}</p>
-        <p className="text-base leading-loose text-gray-400">{preview}</p>
+        <p className="text-sm md:text-base">{description}</p>
+        <p className="text-base leading-snug md:leading-loose text-gray-400">
+          {preview}
+        </p>
       </div>
       <Link href={`/${slug}`} passHref>
         <div className="flex items-center space-x-1 text-gray-200 cursor-pointer group">

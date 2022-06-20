@@ -24,7 +24,7 @@ export default function Caveman() {
           </h1>
           <h2 className="">{data[0].description}</h2>
           <div className="w-full h-5 border-t border-b border-gray-400" />
-          <div className="space-y-4 text-base md:space-y-7">
+          <div className="space-y-4 text-base md:space-y-7 leading-snug md:leading-normal">
             <p>
               There was a story about how much supposed waste Amazon produces,
               that Amazon was routinely destroying a whole bunch of products.
